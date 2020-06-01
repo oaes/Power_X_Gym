@@ -1,0 +1,36 @@
+.container{
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+
+.progression{
+    background-image: url(../../Images/hipcravo-5UbIqV58CW8-unsplash.jpg);
+    opacity:1;
+}
+.workout{
+    background-image: url(../../Images/daniel-apodaca-WdoQio6HPVA-unsplash.jpg);
+    opacity: 1;
+}
+.nutrition{
+    background-image: url(../../Images/penguinuhh-8VI6WwEEEHw-unsplash.jpg);
+    opacity: 1;
+}
+.progression, .workout, .nutrition{
+    background-size: cover;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: -25px;
+    padding-bottom: 100px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top:40px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
