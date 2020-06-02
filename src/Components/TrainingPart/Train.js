@@ -6,7 +6,7 @@ import img2 from '../../Images/arthur-edelman-qfjuh4OLdxw-unsplash.jpg';
 const Train = () => {
     return (
         <div className="container">
-            <h2>TRAINING <span className="text-yellow">PROGRAMS</span></h2>
+            <p className="tp">TRAINING <span className="text-yellow">PROGRAMS</span></p>
             <div className="row">
                 <div className="col-md-6">
                     <img src={img1} alt=""/>

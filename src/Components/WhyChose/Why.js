@@ -6,9 +6,9 @@ import p3 from "../../Images/gift-2.png";
 const Why = () => {
   return (
     <div className="container">
-      <h2>
+      <p className="why">
         <span style={{ color: "#fcd742" }}>WHY</span> CHOOSE US
-      </h2>
+      </p>
       <div className="row">
         <div className="col-md-4">
           <div
