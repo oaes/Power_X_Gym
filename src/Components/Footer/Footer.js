@@ -48,19 +48,19 @@ const Footer = () => {
           </Link>
           <br />
           <Link href="/">
-            <img src={youtube} alt="" />
+            <img src={youtube} alt="" className="social-media" />
           </Link>
           <Link href="/">
-            <img src={facebook} alt="" />
+            <img src={facebook} alt="" className="social-media" />
           </Link>
           <Link href="/">
-            <img src={instagram} alt="" />
+            <img src={instagram} alt="" className="social-media" />
           </Link>
           <Link href="/">
-            <img src={twitter} alt="" />
+            <img src={twitter} alt="" className="social-media" />
           </Link>
           <Link href="/">
-            <img src={whatsapp} alt="" />
+            <img src={whatsapp} alt="" className="social-media" />
           </Link>
           <br />
           <Link href="/">Forum</Link>
