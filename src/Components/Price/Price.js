@@ -1,69 +1,61 @@
 import React from "react";
-
+import "./Price.scss";
 const Price = () => {
   return (
-    <div className="pricing-area">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6">
-            <div className="single-pricing">
-              <div className="head-text">
-                <h3>Basic</h3>
-              </div>
-              <div className="price-area">$400</div>
-              <div className="feature-area">
-                <ul>
-                  <li>one</li>
-                  <li>two</li>
-                  <li>three</li>
-                </ul>
-                <div />
-                <div className="btn-area">
-                  <a href="/">Purchase</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-            <div className="single-pricing best-deal">
-              <div className="head-text">
-                <h3>Basic</h3>
-              </div>
-              <div className="price-area">$400</div>
-              <div className="feature-area">
-                <ul>
-                  <li>one</li>
-                  <li>two</li>
-                  <li>three</li>
-                </ul>
-                <div />
-                <div className="btn-area">
-                  <a href="/">Purchase</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-            <div className="single-pricing">
-              <div className="head-text">
-                <h3>Basic</h3>
-              </div>
-              <div className="price-area">$400</div>
-              <div className="feature-area">
-                <ul>
-                  <li>one</li>
-                  <li>two</li>
-                  <li>three</li>
-                </ul>
-                <div />
-                <div className="btn-area">
-                  <a href="/">Purchase</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="container">
+      <div className="columns ONE">
+        <ul className="price">
+          <p className="bill">BILLED MONTHLY</p>
+          <p className="bill2">ADVANCED PLAN</p>
+          <p className="bill3">$140</p>
+          <li>✔ Mobile-Optimized</li>
+          <li>✔ Best Hosting</li>
+          <li>✔ Free Custom</li>
+          <li>✔ Outstanding </li>
+          <li>✔ Happy Customers </li>
+          <li className="">
+            <a href="/" className="button">
+              PURCHASE
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-    </div>
+
+      <div className="columns TWO">
+        <ul className="price">
+          <p className="bill">BILLED MONTHLY</p>
+          <p className="bill2">BASIC PLAN</p>
+          <p className="bill3">$120</p>
+          <li>✔ Mobile-Optimized</li>
+          <li>✔ Best Hosting</li>
+          <li>✔ Free Custom</li>
+          <li>✔ Outstanding </li>
+          <li>✔ Happy Customers </li>
+          <li className="">
+            <a href="/" className="button">
+              PURCHASE
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="columns THREE">
+        <ul className="price">
+          <p className="bill">BILLED MONTHLY</p>
+          <p className="bill2">BEGINNER PLAN</p>
+          <p className="bill3">$90</p>
+          <li>✔ Mobile-Optimized</li>
+          <li>✔ Best Hosting</li>
+          <li>✔ Free Custom</li>
+          <li>✔ Outstanding </li>
+          <li>✔ Happy Customers </li>
+          <li className="">
+            <a href="/" className="button">
+              PURCHASE
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

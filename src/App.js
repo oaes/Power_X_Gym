@@ -2,14 +2,15 @@ import React from "react";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Components/Home/Home";
-import TopNav from './Components/TopNav/TopNav';
-import About from './Components/About/About';
-import { BrowserRouter as Router, Switch , Route, Link } from "react-router-dom";
+import TopNav from "./Components/TopNav/TopNav";
+import About from "./Components/About/About";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Price from "./Components/Price/Price";
 
 function App() {
   return (
     <div className="App">
-       <Router>
+      <Router>
         <TopNav></TopNav>
         <Switch>
           <Route path="/home">
@@ -18,10 +19,15 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
+          <Route exact path="/about us">
+            <About />
+          </Route>
+          <Route path="/pricing">
+            <Price />
+          </Route>
         </Switch>
       </Router>
     </div>
-    
   );
 }
 
