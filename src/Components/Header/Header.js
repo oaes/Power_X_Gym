@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.scss";
+import {Link} from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
                 Itaque, alias facilis expedita dignissimos, atque distinctio
                 voluptatem, asperiores ullam quia quidem placeat ratione.
               </p>
-              <button className="join-btn">Join us</button>
+              <Link className="btn join-btn" to={'/pricing/'}> JOIN US </Link>
             </div>
             <div className="col-md-6 video h-100 overlay"></div>
           </div>

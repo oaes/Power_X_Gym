@@ -1,8 +1,13 @@
 import React from "react";
 import "./Price.scss";
+import { Link } from "react-router-dom";
 const Price = () => {
   return (
     <div className="container">
+
+<h3 className="yellow-text"><span className="yellow">Choose the offer</span> That suits you</h3>
+<p className="y-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque vero deserunt at harum pariatur? Ullam aliquam sint fugiat porro dicta?</p>
+
       <div className="columns ONE">
         <ul className="price">
           <p className="bill">BILLED MONTHLY</p>
@@ -14,9 +19,10 @@ const Price = () => {
           <li>✔ Outstanding </li>
           <li>✔ Happy Customers </li>
           <li className="">
-            <a href="/" className="button">
-              PURCHASE
-            </a>
+            <Link className="btn button" to={"/personal/"}>
+              {" "}
+              Purchase{" "}
+            </Link>
           </li>
         </ul>
       </div>
@@ -32,9 +38,10 @@ const Price = () => {
           <li>✔ Outstanding </li>
           <li>✔ Happy Customers </li>
           <li className="">
-            <a href="/" className="button">
-              PURCHASE
-            </a>
+            <Link className="btn button" to={"/personal/"}>
+              {" "}
+              Purchase{" "}
+            </Link>
           </li>
         </ul>
       </div>
@@ -50,9 +57,10 @@ const Price = () => {
           <li>✔ Outstanding </li>
           <li>✔ Happy Customers </li>
           <li className="">
-            <a href="/" className="button">
-              PURCHASE
-            </a>
+            <Link className="btn button" to={"/personal/"}>
+              {" "}
+              Purchase{" "}
+            </Link>
           </li>
         </ul>
       </div>

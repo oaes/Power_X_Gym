@@ -1,0 +1,31 @@
+.agym{
+    width: 100%;
+    height: auto;
+}
+h6{
+    text-align: left;
+}
+.resize{
+    width: auto;
+    height: 30px;
+}
+.schedule-label{
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.check{
+    justify-content: flex-end;
+    display: flex;
+}
+.check-btn{
+    background: #fcd742;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top:297px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,15 @@
+.hero-banner{
+    height: 350px;
+    background-image: url('../../Images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+    opacity: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+.ss{
+    margin-top: 120px;
+    color: #fcd742;
+}
+.hero-banner::before{
+    left: 0;
+    z-index: -1;
+}
